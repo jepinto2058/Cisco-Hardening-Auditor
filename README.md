@@ -14,7 +14,7 @@ Reportes Detallados: Los resultados incluyen descripciones claras, severidad, be
 
 Exportación de Reportes: Exporta tus análisis a formatos HTML y PDF para facilitar la documentación y el intercambio de información.
 
-📝 Requerimientos
+## 📝 Requerimientos
 Para un análisis de hardening completo, la herramienta necesita los siguientes datos. Asegúrate de obtener la salida de estos comandos en formato de texto (.txt, .log o .cfg) de cada dispositivo.
 
 Configuración Completa (show running-config): Este es el archivo principal que se debe analizar para la auditoría de hardening.
@@ -31,7 +31,7 @@ show cdp neighbors y/o show lldp neighbors
 
 show logging
 
-🛠️ Cómo Empezar
+## 🛠️ Cómo Empezar
 Esta aplicación usa módulos de JavaScript (ESM) y no puede ejecutarse simplemente abriendo el archivo index.html desde tu navegador. Necesitas un servidor web local para que funcione correctamente.
 
 Opción 1: Con XAMPP (Recomendado)
@@ -60,7 +60,7 @@ python -m http.server
 python -m SimpleHTTPServer
 Después, navega a http://localhost:8000 en tu navegador.
 
-🚀 Modo de Uso
+## 🚀 Modo de Uso
 Recolecta la información: Asegúrate de tener los archivos de configuración requeridos por la herramienta. Consulta la sección 📝 Requerimientos para más detalles.
 
 Selecciona un modo: Elige entre Análisis Simple, Análisis Comparativo o Análisis de Flota.
@@ -71,7 +71,7 @@ Analiza: Haz clic en el botón correspondiente.
 
 Revisa y Exporta: Explora los resultados y descarga los reportes si lo necesitas.
 
-💻 Tecnologías Utilizadas
+## 💻 Tecnologías Utilizadas
 HTML5 & CSS3: Para la estructura y el estilo.
 
 Tailwind CSS: Framework CSS para un diseño moderno y responsive.
@@ -84,5 +84,5 @@ jsPDF: Generación de reportes PDF.
 
 Web Workers: Para análisis de flota en segundo plano sin congelar la interfaz.
 
-🤝 Contribuciones
+# 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si tienes ideas para nuevas verificaciones, mejoras en la interfaz o correcciones, no dudes en abrir un issue o enviar un pull request.
