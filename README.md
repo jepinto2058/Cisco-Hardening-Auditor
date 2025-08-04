@@ -1,9 +1,9 @@
-🚀 Auditor de Hardening para Dispositivos Cisco
+# 🚀 Auditor de Hardening para Dispositivos Cisco
 Una herramienta web poderosa y totalmente privada para auditar configuraciones de equipos Cisco (IOS, IOS-XE, NX-OS) en busca de vulnerabilidades y malas prácticas. 🔒
 
 Como es una aplicación client-side, tus archivos de configuración nunca salen de tu navegador. Tu privacidad y seguridad están garantizadas.
 
-✨ Características Principales
+## ✨ Características Principales
 Análisis Simple: Sube un único archivo (show running-config) y obtén un análisis de seguridad instantáneo y detallado.
 
 Análisis Comparativo: Compara dos configuraciones (un "antes" y un "después") para visualizar claramente el progreso en la mitigación de riesgos.
